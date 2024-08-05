@@ -6,5 +6,7 @@ The tasks have been completed and rather than having this repository forgotten a
 
 
 ### [Python Project](https://www.coursera.org/learn/python-project-for-data-science/home/welcome)
-Improving upon the python skills in hand with a python project for data analysis.
+Improving upon the python skills in hand with a python project for data analysis.  
+Understood a basic idealogy on WEB Scraping using beautifulSoup.  
+Uploaded a file on it.
 
