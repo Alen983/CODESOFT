@@ -9,6 +9,10 @@ The tasks have been completed and rather than having this repository forgotten a
 Improving upon the python skills in hand with a python project for data analysis.  
 Understood a basic idealogy on WEB Scraping using beautifulSoup.  
 Uploaded a file on it.
+
+##### Beautiful Soup  
+Beautiful Soup is a Python library for pulling data out of HTML and XML files, we will focus on HTML files. This is accomplished by representing the HTML as a set of objects with methods used to parse the HTML. We can navigate the HTML as a tree and/or filter out what we are looking for.  
+
 ##### Project Overview
 For this project, you will assume the role of a Data Scientist / Data Analyst working for a new startup investment firm that helps customers invest their money in stocks. Your job is to extract financial data like historical share price and quarterly revenue reportings from various sources using Python libraries and webscraping on popular stocks. After collecting this data you will visualize it in a dashboard to identify patterns or trends. The stocks we will work with are Tesla, Amazon, AMD, and GameStop
 
