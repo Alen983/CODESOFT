@@ -1,0 +1,10 @@
+## Beautiful Soup.  
+Beautiful Soup is a Python library for pulling data out of HTML and XML files. This is accomplished by representing the HTML as a set of objects with methods used to parse the HTML. We can navigate the HTML as a tree and/or filter out what we are looking for.  
+
+#### Soupified Action
+First,Entire HTML element is stored as string to variable html.  
+To parse a document, pass it into the **BeautifulSoup** constructor, the **BeautifulSoup** object, which represents the document as a nested data structure:  
+```soup = BeautifulSoup(html, "html.parser")```  
+
+#### Soup kicking in'
+First, the document is converted to Unicode, (similar to ASCII), and HTML entities are converted to Unicode characters. Beautiful Soup transforms a complex HTML document into a complex tree of Python objects. The BeautifulSoup object can create other types of objects. In this lab, we will cover BeautifulSoup and Tag objects that for the purposes of this lab are identical, and NavigableString objects.
