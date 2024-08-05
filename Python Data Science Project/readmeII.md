@@ -7,4 +7,9 @@ To parse a document, pass it into the **BeautifulSoup** constructor, the **Beaut
 ```soup = BeautifulSoup(html, "html.parser")```  
 
 #### Soup kicking in'
-First, the document is converted to Unicode, (similar to ASCII), and HTML entities are converted to Unicode characters. Beautiful Soup transforms a complex HTML document into a complex tree of Python objects. The BeautifulSoup object can create other types of objects. In this lab, we will cover BeautifulSoup and Tag objects that for the purposes of this lab are identical, and NavigableString objects.
+First, the document is converted to Unicode, (similar to ASCII), and HTML entities are converted to Unicode characters. Beautiful Soup transforms a complex HTML document into a complex tree of Python objects. The BeautifulSoup object can create other types of objects. In this lab, we will cover BeautifulSoup and Tag objects that for the purposes of this lab are identical, and NavigableString objects.  
+
+We can use the method prettify() to display the HTML in the nested structure:  
+```print(soup.prettify())```  
+
+[Soup recipie in detail](https://labs.cognitiveclass.ai/v2/tools/jupyterlab?ulid=ulid-ba67a5a5eb98df57e67bad3aa7cd10d886d03949)
